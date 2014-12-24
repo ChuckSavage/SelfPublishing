@@ -75,7 +75,7 @@
     <Compile Include="Quote\Response.cs" />
     <Compile Include="RequestDTO.cs" />
     <Compile Include="ResponseDTO.cs" />
-    <Compile Include="XmlServiceClient.cs" />
+    <Compile Include="XmlClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

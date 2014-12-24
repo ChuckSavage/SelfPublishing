@@ -7,9 +7,9 @@ using XmlLib;
 
 namespace SelfPublishing
 {
-    class XmlServiceClient : ServiceStack.ServiceClient.Web.XmlServiceClient
+    public class XmlClient : ServiceStack.ServiceClient.Web.XmlServiceClient
     {
-        public XmlServiceClient(string baseUri)
+        public XmlClient(string baseUri)
             : base(baseUri)
         {
         }

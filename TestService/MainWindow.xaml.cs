@@ -5,7 +5,7 @@ namespace TestService
 {
     public partial class MainWindow : Window
     {
-        XmlClient client = new XmlClient(@"http://api.selfpublishing.com");
+        XmlClient client = new XmlClient("http://api.selfpublishing.com");
         AccessDTO access;
 
         public MainWindow()
